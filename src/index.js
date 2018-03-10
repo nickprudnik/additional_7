@@ -2,7 +2,6 @@ module.exports = function solveSudoku(matrix) {
 var p = []
   var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-
     for (var row = 0; row < 9; row++) {
         for (var col = 0; col < 9; col++) {
 
